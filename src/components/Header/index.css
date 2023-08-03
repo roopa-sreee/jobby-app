@@ -1,0 +1,46 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #202020;
+  padding: 15px;
+  width: 100%;
+}
+.website-logo {
+  height: 40px;
+  width: 100px;
+}
+@media screen and (min-width: 768px) {
+  .website-logo {
+    height: 55px;
+    width: 150px;
+  }
+}
+.header-icons-small-device {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.link-item {
+  color: #000000;
+  text-decoration: none;
+}
+.header-icon {
+  margin-right: 5px;
+  height: 40px;
+  width: 40px;
+}
+.header-options-large-device {
+  list-style-type: none;
+}
+.nav-option {
+  color: white;
+  font-size: 18px;
+}
+.logout-button {
+  color: white;
+  background-color: blue;
+  border-radius: 15px;
+  cursor: pointer;
+  outline: none;
+}

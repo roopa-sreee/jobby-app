@@ -1,0 +1,147 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url('https://assests.ccbp.in/frontend/react-js/profile-bg.png');
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+.profile-icon {
+  height: 45px;
+  width: 45px;
+  margin: 5px;
+}
+.profile-name {
+  color: '#b6c5ff';
+  font-family: 'Roboto';
+  font-size: '24px';
+  font-weight: 400;
+}
+.short-bio {
+  color: #64748b;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+.failure-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failure-button {
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failure-view-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.failure-image {
+  height: 160px;
+  width: 160px;
+  margin: 10px;
+}
+@media screen and (min-width: 768px) {
+  .failure-image {
+    height: 200px;
+    width: 200px;
+  }
+}
+.failure-heading-text {
+  color: white;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .failure-heading-text {
+    font-size: 32px;
+  }
+}
+.failure-view-text {
+  color: white;
+  font-size: 14px;
+}
+.no-jobs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.no-jobs-image {
+  height: 160px;
+  width: 160px;
+  margin: 10px;
+}
+@media screen and (min-width: 768px) {
+  .no-jobs-image {
+    height: 200px;
+    width: 200px;
+  }
+}
+.no-jobs-heading {
+  color: white;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .no-jobs-heading {
+    font-size: 32px;
+  }
+}
+.jobs-list-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.job-types-container {
+  list-style-type: none;
+}
+.checkbox {
+  border-radius: 2px;
+}
+.label {
+  color: black;
+  font-size: 14px;
+}
+.all-jobs-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+@media screen and (min-width: 768px) {
+  .all-jobs-container {
+    flex-direction: row;
+  }
+}
+.profile-and-filters-container {
+  display: flex;
+  flex-direction: column;
+}
+.employment-type-heading {
+  color: white;
+  font-size: 22px;
+}
+.jobs-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .small-device-search {
+    display: none;
+  }
+}
+.large-device-search {
+  display: none;
+}
